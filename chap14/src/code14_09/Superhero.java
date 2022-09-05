@@ -9,14 +9,14 @@ public class Superhero extends Hero {
 		if(this == o) {
 			return true;
 		}
-
+/*
 		if(o instanceof Hero) {
 			Hero h = (Hero)o;
 			if(this.equals(h)) {
 				return true;
 			}
 		}
-
+*/
 		return false;
 	}
 }
